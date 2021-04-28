@@ -1,0 +1,43 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: botocore
+    versions:
+    - 1.20.28
+    - 1.20.29
+    - 1.20.30
+    - 1.20.32
+    - 1.20.33
+    - 1.20.34
+    - 1.20.35
+    - 1.20.36
+    - 1.20.38
+    - 1.20.39
+    - 1.20.40
+    - 1.20.41
+    - 1.20.43
+    - 1.20.44
+    - 1.20.45
+    - 1.20.46
+    - 1.20.47
+    - 1.20.48
+    - 1.20.49
+    - 1.20.50
+    - 1.20.51
+    - 1.20.52
+    - 1.20.53
+    - 1.20.54
+    - 1.20.55
+    - 1.20.56
+    - 1.20.57
+    - 1.20.58
+  - dependency-name: humanize
+    versions:
+    - 3.2.0
+    - 3.3.0
+    - 3.4.0
